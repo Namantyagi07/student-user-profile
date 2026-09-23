@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <h1 style = "font-size: 28px;font-family: Arial, Helvetica, sans-serif;color: black;"> Student Registration Portal</h1>
+    </head>
+    <p style="color:#333; font-family:Georgia; font-size:15px;">
+        Welcome to XYZ Institute. Please fill out the registration form below.
+    </p>
+    <hr>
+</hr>
+    <h2 style="color:#1c3550; font-family:Georgia; font-size:21px;">
+        Student Profile
+    </h2>
+<img 
+        src=".\user profile .jpeg" 
+        alt="Student Profile"
+        width="200"
+        height="210"
+        style="display:block;"
+    >
+     <hr>
+</hr>
+    <h2 style="color:#1c3550; font-family:Georgia; font-size:21px;">
+        Student Registration Form
+    </h2>
+  <form>
+
+        <label style="font-size: 16px;">
+            Full Name:
+        </label>
+
+        <input 
+            type="text"
+            placeholder="Enter your full name"
+            style="margin-left: 10px; padding: 5px;"
+        >
+
+        <br><br>
+
+
+        <label style="font-size: 16px;">
+            Email:
+        </label>
+
+        <input 
+            type="email"
+            placeholder="Enter your email"
+            style="margin-left: 35px; padding: 5px;"
+        >
+
+        <br><br>
+
+
+        <label style="font-size: 16px;">
+            Password:
+        </label>
+
+        <input 
+            type="password"
+            placeholder="Enter your password"
+            style="margin-left: 10px; padding: 5px;"
+        >
+
+        <br><br>
+
+
+        <label style="font-size: 16px;">
+            Phone Number:
+        </label>
+ <input 
+            type="tel"
+            placeholder="Enter your phone number"
+            style="margin-left: 10px; padding: 5px;"
+        >
+
+        <br><br>
+
+
+        <label style="font-size: 16px;">
+            Date of Birth:
+        </label>
+
+        <input 
+            type="date"
+            style="margin-left: 10px; padding: 5px;"
+        >
+
+        <br><br>
+
+
+        <label style="font-size: 16px;">
+            Gender:
+        </label>
+
+        <br><br>
+
+        <input type="radio" name="gender" value="male">
+        <label style="margin-right: 10px;">Male</label>
+
+        <input type="radio" name="gender" value="female">
+        <label style="margin-right: 10px;">Female</label>
+
+        <input type="radio" name="gender" value="other">
+        <label>Other</label>
+
+        <br><br><br>
+
+
+        <label style="font-size: 16px;">
+            Skills:
+        </label>
+
+        <br><br>
+
+        <input type="checkbox" name="skill" value="html">
+        <label style="margin-right: 10px;">HTML</label>
+ <input type="checkbox" name="skill" value="css">
+        <label style="margin-right: 10px;">CSS</label>
+
+        <input type="checkbox" name="skill" value="javascript">
+        <label style="margin-right: 10px;">JavaScript</label>
+
+        <input type="checkbox" name="skill" value="react">
+        <label>React</label>
+
+        <br><br>
+
+
+        <label style="font-size: 16px;">
+            Select Course:
+        </label>
+
+        <select style="margin-left: 10px; padding: 5px;">
+
+            <option value="">
+                -- Select Course --
+            </option>
+
+            <option value="btech">
+                B.Tech
+            </option>
+
+            <option value="bca">
+                BCA
+            </option>
+
+            <option value="mca">
+                MCA
+            </option>
+
+            <option value="bsc">
+                B.Sc
+            </option>
+
+        </select>
+
+        <br><br><br>
+
+    </form>
+<h2 style="font-weight: normal;">
+        Preferred Learning Mode:
+    </h2>
+
+    <input type="radio" name="mode" value="online">
+    <label style="font-size: 20px;">Online</label>
+
+    <input type="radio" name="mode" value="offline">
+    <label style="font-size: 20px;">Offline</label>
+
+    <br><br>
+
+
+    <label style="font-size: 16px;">
+        Highest Qualification:
+    </label>
+
+    <select style="font-size: 16px; padding: 3px;">
+
+        <option>
+            -- Select Qualification --
+        </option>
+
+        <option>10th</option>
+        <option>12th</option>
+        <option>Diploma</option>
+        <option>Graduation</option>
+        <option>Post Graduation</option>
+
+    </select>
+
+    <br><br>
+
+
+    <label style="font-size: 16px;">
+        City:
+    </label>
+
+    <select style="font-size: 16px; padding: 3px;">
+
+        <option>
+            -- Select City --
+        </option>
+
+        <option>Delhi</option>
+        <option>Mumbai</option>
+        <option>Meerut</option>
+        <option>Jaipur</option>
+        <option>Bangalore</option>
+    </select>
+
+    <br><br>
+
+    <label style="font-size: 16px;">
+        Address:
+    </label>
+
+    <br>
+
+    <textarea
+        rows="5"
+        cols="45"
+        placeholder="Enter your complete address"
+        style="font-size: 14px; padding: 5px;"
+    ></textarea>
+
+    <br><br>
+
+
+    <button
+        type="submit"
+        style="font-size: 16px; padding: 5px 12px;"
+    >
+        Register
+    </button>
+
+    <button
+        type="reset"
+        style="font-size: 16px; padding: 5px 12px; margin-left: 5px;"
+    >
+        Reset
+    </button>
+
+    <hr style="margin-top: 25px;">
+
+
+    <h1 style="font-size: 28px;font-style: bold;">
+
+        Course Details
+    </h1>
+
+    <table
+        border="1"
+        style="border-collapse: collapse; font-size: 18px;"
+    >
+        <tr>
+            <th style="padding: 5px;">
+                Course
+            </th>
+
+            <th style="padding: 5px;">
+                Duration
+            </th>
+
+            <th style="padding: 5px;">
+                Fees
+            </th>
+        </tr>
+
+        <tr>
+            <td style="padding: 5px;">
+                HTML
+            </td>
+
+            <td style="padding: 5px;">
+                1 Month
+            </td>
+
+            <td style="padding: 5px;">
+                ₹2000
+            </td>
+        </tr>
+
+        <tr>
+            <td style="padding: 5px;">
+                CSS
+            </td>
+
+            <td style="padding: 5px;">
+                1 Month
+            </td>
+
+            <td style="padding: 5px;">
+                ₹2500
+            </td>
+        </tr>
+
+        <tr>
+            <td style="padding: 5px;">
+                JavaScript
+            </td>
+
+            <td style="padding: 5px;">
+                2 Months
+            </td>
+            <td style="padding: 5px;">
+                ₹5000
+            </td>
+        </tr>
+
+        <tr>
+            <td style="padding: 5px;">
+                React
+            </td>
+
+            <td style="padding: 5px;">
+                2 Months
+            </td>
+
+            <td style="padding: 5px;">
+                ₹6000
+            </td>
+        </tr>
+
+    </table>
+
+</body>
+</html>
+<hr>
+</hr>
+<h1 style="font-size: 28px; margin-bottom: 25px;">
+        Class Schedule
+    </h1>
+
+    <table style="border-collapse: collapse; font-size: 18px;">
+        
+        <tr>
+            <th style="border: 1px solid gray; padding: 5px 8px;">
+                Day
+            </th>
+
+            <th style="border: 1px solid gray; padding: 5px 8px;">
+                Subject
+            </th>
+
+            <th style="border: 1px solid gray; padding: 5px 8px;">
+                Time
+            </th>
+        </tr>
+
+        <tr>
+            <td style="border: 1px solid gray; padding: 5px 8px;">
+                Monday
+            </td>
+
+            <td style="border: 1px solid gray; padding: 5px 8px;">
+                HTML
+            </td>
+
+            <td style="border: 1px solid gray; padding: 5px 8px;">
+                10:00 AM
+            </td>
+        </tr>
+
+        <tr>
+   <td style="border: 1px solid gray; padding: 5px 8px;">
+                Tuesday
+            </td>
+
+            <td style="border: 1px solid gray; padding: 5px 8px;">
+                CSS
+            </td>
+
+            <td style="border: 1px solid gray; padding: 5px 8px;">
+                10:00 AM
+            </td>
+        </tr>
+
+        <tr>
+            <td style="border: 1px solid gray; padding: 5px 8px;">
+                Wednesday
+            </td>
+
+            <td style="border: 1px solid gray; padding: 5px 8px;">
+                JavaScript
+            </td>
+
+            <td style="border: 1px solid gray; padding: 5px 8px;">
+                11:00 AM
+            </td>
+        </tr>
+
+        <tr>
+            <td style="border: 1px solid gray; padding: 5px 8px;">
+                Thursday
+            </td>
+
+            <td style="border: 1px solid gray; padding: 5px 8px;">
+                React
+            </td>
+
+            <td style="border: 1px solid gray; padding: 5px 8px;">
+                11:00 AM
+            </td>
+        </tr>
+
+    </table>
+
+
+    <!-- Horizontal Line -->
+    <hr style="margin-top: 30px; margin-bottom: 30px;">
+
+
+    <!-- Student Performance -->
+    <h1 style="font-size: 28px; margin-bottom: 25px;">
+        Student Performance
+ </h1>
+
+    <table style="border-collapse: collapse; font-size: 18px;">
+
+        <tr>
+            <th style="border: 1px solid gray; padding: 5px 8px;">
+                Subject
+            </th>
+
+            <th style="border: 1px solid gray; padding: 5px 8px;">
+                Marks
+            </th>
+
+            <th style="border: 1px solid gray; padding: 5px 8px;">
+                Grade
+            </th>
+        </tr>
+
+        <tr>
+            <td style="border: 1px solid gray; padding: 5px 8px;">
+                HTML
+            </td>
+
+            <td style="border: 1px solid gray; padding: 5px 8px;">
+                85
+            </td>
+
+            <td style="border: 1px solid gray; padding: 5px 8px;">
+                A
+            </td>
+        </tr>
+
+        <tr>
+            <td style="border: 1px solid gray; padding: 5px 8px;">
+                CSS
+            </td>
+
+            <td style="border: 1px solid gray; padding: 5px 8px;">
+                78
+            </td>
+
+            <td style="border: 1px solid gray; padding: 5px 8px;">
+                B+
+            </td>
+        </tr>
+
+        <tr>
+            <td style="border: 1px solid gray; padding: 5px 8px;">
+                JavaScript
+            </td>
+
+            <td style="border: 1px solid gray; padding: 5px 8px;">
+                92
+            </td>
+
+            <td style="border: 1px solid gray; padding: 5px 8px;">
+                A+
+            </td>
+        </tr>
+
+        <tr>
+            <td style="border: 1px solid gray; padding: 5px 8px;">
+                React
+            </td>
+
+            <td style="border: 1px solid gray; padding: 5px 8px;">
+                88
+            </td>
+
+            <td style="border: 1px solid gray; padding: 5px 8px;">
+                A
+            </td>
+        </tr>
+
+    </table>
+
+
+    <!-- Footer -->
+    <hr style="margin-top: 30px;">
+
+    <p style="font-size: 20px; margin-top: 20px;">
+        ©️ 2026 XYZ Institute. All Rights Reserved.
+    </p>
+
